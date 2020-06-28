@@ -7,7 +7,7 @@ Payment = namedtuple("Payment", ["timestep", "price"])
 
 class Bid:
     """
-    A bid containsthe value and weight of a transaction to be paid by a bidder
+    A bid contains the value and weight of a transaction to be paid by a bidder
     If selected as a winning bid in an auction
     """
     def __init__(self, bidder, value, weight, creation_timestep, payment_timestep=None):
